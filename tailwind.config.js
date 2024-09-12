@@ -20,18 +20,15 @@ module.exports = {
     extend: {
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
-        fira: ['Fira Sans', 'sans-serif'],
-        inter: ['Inter', 'sans-serif'],
+        kaisei: ['Kaisei Decol', 'sans-serif'],
+        greatVibes: ['Great Vibes', 'sans-serif']
       },
       colors: {
-        'primary': "#ECEEFF",
-        "background-colour": "#001220",
-        'wave-blue': "#3b4374",
-        'blue-purple': "#645d92",
-        'light-purple': "#8e79b1",
-        'purple-pink': "#b996cf",
-        'light-pink': "#e5b4ed",
-        'deep-blue': "#150e40"
+        'primary-green': "#61805B",
+        'secondary-green': "#87A18E",
+        'green-text': "#1E543A",
+        'gold': "#9F8052",
+        'pale-green': "#87A18E",
       },
       boxShadow: {
         '3xl': '0 15px 40px rgba(0, 0, 0, 0.1)'
