@@ -4,8 +4,8 @@ import { Link as ScrollLink} from 'react-scroll';
 
 const Nav = () => {
   return (
-    <section className="fixed top-0 padding-x py-4 z-50 left-0 w-full bg-primary-green border-boxShadow">
-        <nav className='flex justify-between items-center max-container z-50'>
+    <section className="fixed top-0 padding-x py-4 z-50 left-0 w-full shadow-xl bg-primary-green">
+        <nav className='flex justify-between items-center max-container z-50 shadow-lg'> 
             <ScrollLink to="home" smooth={true} duration={500} className="hover:text-white cursor-pointer">
                 bhjioacs
             </ScrollLink>
