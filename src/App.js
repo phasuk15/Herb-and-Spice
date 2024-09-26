@@ -1,6 +1,6 @@
 
 import React from "react";
-import { BrowserRouter as Router } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Nav from "./sections/Nav";
 import Homepage from "./sections/Homepage";
 import About from "./sections/About";
@@ -9,35 +9,26 @@ import Bookings from "./sections/Bookings";
 import Takeaways from "./sections/Takeaways";
 import FindUs from "./sections/FindUs";
 import Footer from "./sections/Footer";
-
+import ScrollTop from "./components/ScrollTop";
 
 function App() {
   return (
     <Router>
-      <main className="w-screen h-screen">
-        <Nav/>
-        <section id="home" className="">
-          <Homepage/>
-        </section>
-        <section id="about" className=''>
-          <About />
-        </section>
-        <section id="menu" className=''>
-          <Menu />
-        </section>
-        <section id="bookings" className=''>
-          <Bookings />
-        </section>
-        <section id="takeaways" className=''>
-          <Takeaways />
-        </section>
-        <section id="findus" className=''>
-          <FindUs />
-        </section>
-        <section id="footer" className='bg-gray-300'>
-          <Footer />
-        </section>
-      </main>
+      <ScrollTop/>
+      <Routes>
+        <Route path="/" element ={
+          <main className="w-screen h-screen">
+            <Nav/>
+            <section id="home"><Homepage/></section>
+            <section id="about" ><About /></section>
+            <section id="menu" ><Menu /></section>
+            <section id="bookings" ><Bookings /></section>
+            <section id="takeaways" ><Takeaways /></section>
+            <section id="findus" ><FindUs /> </section>
+            <section id="footer"><Footer /></section>
+          </main>
+        }/>
+      </Routes>
     </Router>
   );
 }

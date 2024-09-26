@@ -29,6 +29,8 @@ module.exports = {
         'green-text': "#1E543A",
         'gold': "#9F8052",
         'pale-green': "#87A18E",
+        'text-grey': "#5B5D5C",
+        'light-gold': "#F5DBB5"
       },
       boxShadow: {
         '3xl': '0 15px 40px rgba(0, 0, 0, 0.1)'

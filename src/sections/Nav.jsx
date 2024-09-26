@@ -1,13 +1,20 @@
 
 import { Link as ScrollLink} from 'react-scroll';
+import logo from "../assets/images/herb&spiceLogo.png"
+import lightlogo from "../assets/images/herb&spiceLogoLight.png"
 
 
 const Nav = () => {
   return (
-    <section className="fixed top-0 padding-x py-4 z-50 left-0 w-full shadow-xl bg-primary-green">
-        <nav className='flex justify-between items-center max-container z-50 shadow-lg'> 
+    <section className="fixed top-0 padding-x py-4 z-50 left-0 w-full bg-primary-green">
+        <nav className='flex justify-between items-center max-container z-50'> 
             <ScrollLink to="home" smooth={true} duration={500} className="hover:text-white cursor-pointer">
-                bhjioacs
+                <img
+                  src={lightlogo}
+                  alt="herb and spice"
+                  width={50}
+                  height={50}
+                />
             </ScrollLink>
             <ul className='flex-1 flex justify-end items-center gap-16 text-white max-md:hidden'>
                 <ScrollLink to="about" smooth={true} duration={500} className="hover:text-white cursor-pointer">About us</ScrollLink>
