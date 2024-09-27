@@ -1,6 +1,5 @@
 
 import { Link as ScrollLink} from 'react-scroll';
-import logo from "../assets/images/herb&spiceLogo.png"
 import lightlogo from "../assets/images/herb&spiceLogoLight.png"
 
 

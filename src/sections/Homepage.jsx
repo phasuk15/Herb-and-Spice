@@ -11,7 +11,7 @@ const Homepage = () => {
           alt=""
           className="rounded-r-full h-screen"
         />
-        <div className="mr-11 text-right padding-x">
+        <div className="text-right padding-x">
           <h1 className="font-greatVibes text-8xl text-gold ">
             Herb <span className="text-green-text">&</span> Spice
           </h1>

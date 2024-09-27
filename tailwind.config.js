@@ -35,6 +35,10 @@ module.exports = {
       boxShadow: {
         '3xl': '0 15px 40px rgba(0, 0, 0, 0.1)'
       },
+      backgroundImage: {
+        'hero': "url('assets/images/coverPic.jpg')",
+        'takeaway': "url('assets/images/fullCover.jpg')",
+      },
       screens: {
         "wide": "1440px"
       },
