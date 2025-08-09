@@ -1,0 +1,181 @@
+[
+  { "category": "Starters",
+    "items": [
+      {
+        "name": "Spring Rolls",
+        "description": "Deep-fried crispy spring rolls accompanied with sweet chilli sauce.",
+        "price": 4.95
+      },
+      {
+        "name": "Satay",
+        "description": "Strips of grilled marinated chicken accopmanied with peanut sauce.",
+        "price": 6.50
+      }
+    ]
+  },
+
+  { "category": "Soup",
+    "items": [
+      {
+        "name": "Tom Yung Koong",
+        "description": "Classic stir-fried rice noodles with egg, bean sprouts, peanuts and your choice of chicken, prawns, or tofu.",
+        "price": 9.95,
+        "options": [
+            {
+                "name": "Tom Yum Mushroom",
+                "price": 6.00
+            },
+            {
+                "name": "Tom Yum Chicken",
+                "price": 6.95
+            }
+        ]
+      },
+      {
+        "name": "Coconut Soup",
+        "description": "Rich coconut-based curry with green chilli, Thai herbs, and vegetables, served with jasmine rice.",
+        "price": 6.95
+      }
+    ]
+  },
+
+  { "category": "Salad",
+    "items": [
+      {
+        "name": "Spicy Beef Salad",
+        "description": "Rich coconut-based curry with green chilli, Thai herbs, and vegetables, served with jasmine rice.",
+        "price": 6.95
+      },
+      {
+        "name": "Spicy Seafood Salad",
+        "description": "Rich coconut-based curry with green chilli, Thai herbs, and vegetables, served with jasmine rice.",
+        "price": 6.95
+      }
+    ]
+  },
+
+  { "category": "Fish and Seafood",
+    "items": [
+      {
+        "name": "Tom Yung Koong",
+        "description": "Classic stir-fried rice noodles with egg, bean sprouts, peanuts and your choice of chicken, prawns, or tofu.",
+        "price": 9.95,
+        "options": [
+            {
+                "name": "Tom Yum Mushroom",
+                "price": 6.00
+            },
+            {
+                "name": "Tom Yum Chicken",
+                "price": 6.95
+            }
+        ]
+      },
+      {
+        "name": "Coconut Soup",
+        "description": "Rich coconut-based curry with green chilli, Thai herbs, and vegetables, served with jasmine rice.",
+        "price": 6.95
+      }
+    ]
+  },
+
+  { "category": "Curry",
+    "items": [
+      {
+        "name": "Tom Yung Koong",
+        "description": "Classic stir-fried rice noodles with egg, bean sprouts, peanuts and your choice of chicken, prawns, or tofu.",
+        "price": 9.95,
+        "options": [
+            {
+                "name": "Tom Yum Mushroom",
+                "price": 6.00
+            },
+            {
+                "name": "Tom Yum Chicken",
+                "price": 6.95
+            }
+        ]
+      },
+      {
+        "name": "Coconut Soup",
+        "description": "Rich coconut-based curry with green chilli, Thai herbs, and vegetables, served with jasmine rice.",
+        "price": 6.95
+      }
+    ]
+  },
+
+  { "category": "Chicken and Duck",
+    "items": [
+      {
+        "name": "Tom Yung Koong",
+        "description": "Classic stir-fried rice noodles with egg, bean sprouts, peanuts and your choice of chicken, prawns, or tofu.",
+        "price": 9.95,
+        "options": [
+            {
+                "name": "Tom Yum Mushroom",
+                "price": 6.00
+            },
+            {
+                "name": "Tom Yum Chicken",
+                "price": 6.95
+            }
+        ]
+      },
+      {
+        "name": "Coconut Soup",
+        "description": "Rich coconut-based curry with green chilli, Thai herbs, and vegetables, served with jasmine rice.",
+        "price": 6.95
+      }
+    ]
+  },
+
+  { "category": "Meat",
+    "items": [
+      {
+        "name": "Tom Yung Koong",
+        "description": "Classic stir-fried rice noodles with egg, bean sprouts, peanuts and your choice of chicken, prawns, or tofu.",
+        "price": 9.95,
+        "options": [
+            {
+                "name": "Tom Yum Mushroom",
+                "price": 6.00
+            },
+            {
+                "name": "Tom Yum Chicken",
+                "price": 6.95
+            }
+        ]
+      },
+      {
+        "name": "Coconut Soup",
+        "description": "Rich coconut-based curry with green chilli, Thai herbs, and vegetables, served with jasmine rice.",
+        "price": 6.95
+      }
+    ]
+  },
+
+  { "category": "Vegetable",
+    "items": [
+      {
+        "name": "Tom Yung Koong",
+        "description": "Classic stir-fried rice noodles with egg, bean sprouts, peanuts and your choice of chicken, prawns, or tofu.",
+        "price": 9.95,
+        "options": [
+            {
+                "name": "Tom Yum Mushroom",
+                "price": 6.00
+            },
+            {
+                "name": "Tom Yum Chicken",
+                "price": 6.95
+            }
+        ]
+      },
+      {
+        "name": "Coconut Soup",
+        "description": "Rich coconut-based curry with green chilli, Thai herbs, and vegetables, served with jasmine rice.",
+        "price": 6.95
+      }
+    ]
+  }
+]

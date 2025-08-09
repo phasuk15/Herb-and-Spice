@@ -1,0 +1,79 @@
+[
+    { "name": "Royal Platter",
+        "description": "A premium selection of Thai classics for two people to share.",
+        "price": 17.00,
+        "includes": [
+            "Satay",
+            "Corn Cake",
+            "Spring Roll",
+            "Bags of Gold",
+            "Thai Dim Sum",
+            "Prawns on Toast"
+        ]
+    },
+
+    { "name": "Royal Court",
+        "description": "A premium selection of Thai classics for two people to share.",
+        "price": 17.00,
+        "includes": [
+            "Satay",
+            "Corn Cake",
+            "Spring Roll",
+            "Bags of Gold",
+            "Thai Dim Sum",
+            "Prawns on Toast"
+        ]
+    },
+
+    { "name": "Prince and Princess",
+        "description": "A premium selection of Thai classics for two people to share.",
+        "price": 17.00,
+        "includes": [
+            "Satay",
+            "Corn Cake",
+            "Spring Roll",
+            "Bags of Gold",
+            "Thai Dim Sum",
+            "Prawns on Toast"
+        ]
+    },
+
+    { "name": "King and Queen",
+        "description": "A premium selection of Thai classics for two people to share.",
+        "price": 17.00,
+        "includes": [
+            "Satay",
+            "Corn Cake",
+            "Spring Roll",
+            "Bags of Gold",
+            "Thai Dim Sum",
+            "Prawns on Toast"
+        ]
+    },
+
+    { "name": "Royal Family",
+        "description": "A premium selection of Thai classics for two people to share.",
+        "price": 17.00,
+        "includes": [
+            "Satay",
+            "Corn Cake",
+            "Spring Roll",
+            "Bags of Gold",
+            "Thai Dim Sum",
+            "Prawns on Toast"
+        ]
+    },
+
+    { "name": "Royal Banquet",
+        "description": "A premium selection of Thai classics for two people to share.",
+        "price": 17.00,
+        "includes": [
+            "Satay",
+            "Corn Cake",
+            "Spring Roll",
+            "Bags of Gold",
+            "Thai Dim Sum",
+            "Prawns on Toast"
+        ]
+    }
+]
