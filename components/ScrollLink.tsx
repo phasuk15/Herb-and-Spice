@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect } from "react";
-import { useRouter, usePathname, useSearchParams } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import { MouseEvent } from "react";
 
 interface ScrollLinkProps {
-  href: string; // String to the page
+  href: string;
   children: React.ReactNode;
   className?: string;
 }
@@ -16,33 +16,43 @@ const ScrollLink = ({ href, children, className }: ScrollLinkProps) => {
 
   const [targetPath, hash] = href.split("#");
 
+  const scrollWithOffset = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      const navbar = document.querySelector("nav");
+      const navbarHeight = navbar ? navbar.getBoundingClientRect().height : 0;
+
+      const elementPosition =
+        element.getBoundingClientRect().top + window.scrollY;
+      const offsetPosition = elementPosition - navbarHeight;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
+
   const handleClick = (e: MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
 
     if (pathname === targetPath || (!targetPath && pathname === "/")) {
-      // Already on target page, scroll directly
-      const element = document.getElementById(hash);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-      }
+      // Same page — scroll directly
+      scrollWithOffset(hash);
     } else {
-      // Navigate to target page, then scroll after mount
+      // Different page — store target and scroll after navigation
       sessionStorage.setItem("scrollTo", hash);
       router.push(targetPath || "/");
     }
   };
 
-  // On mount, check if there's a scroll target
   useEffect(() => {
     const scrollTo = sessionStorage.getItem("scrollTo");
     if (scrollTo) {
-      const el = document.getElementById(scrollTo);
-      if (el) {
-        // Delay to allow DOM to mount fully
-        setTimeout(() => {
-          el.scrollIntoView({ behavior: "smooth" });
-        }, 100);
-      }
+      // Delay ensures DOM is rendered before measuring height
+      setTimeout(() => {
+        scrollWithOffset(scrollTo);
+      }, 100);
       sessionStorage.removeItem("scrollTo");
     }
   }, [pathname]);
@@ -52,6 +62,6 @@ const ScrollLink = ({ href, children, className }: ScrollLinkProps) => {
       {children}
     </a>
   );
-}
+};
 
 export default ScrollLink;
