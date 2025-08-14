@@ -11,10 +11,6 @@ const Booking = () => {
           <p className="mb-6 text-center text-gray-700">
             If you have any special requests or dietary requirements, please mention them in the booking form’s notes section.
           </p>
-
-          <p className="mb-8 text-center text-gray-700 italic">
-            Note: For group bookings of 8 or more, please contact us directly at <a href="tel:01788 537735" className="text-blue-600 underline">+1 234 567 890</a>.
-          </p>
         </div>
 
         <BookingWidget />
